@@ -34,6 +34,15 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
 		
+Buildings
+	*cage|cages
+		name:Клетка|Клетки
+		desc:Клетка с сашей хакиным, производит 1 моник в 10 секунд
+		icon:https://github.com/quell1337/moniclicker/raw/main/images/factory.jpg
+		cost:15 moniks
+		on tick:yield 0.1 monik
+		unlocked
+
 Resources
 	*monik|moniks
 		name:Моник|Моники
@@ -56,12 +65,3 @@ Upgrades
 		icon:https://github.com/quell1337/moniclicker/raw/main/images/iconGolden.png
 		cost:1 goldenMonik
 		req:1 goldenMonik:earned
-
-Buildings
-	*cage|cages
-		name:Клетка|Клетки
-		desc:Клетка с сашей хакиным, производит 1 моник в 10 секунд
-		icon:https://github.com/quell1337/moniclicker/raw/main/images/factory.jpg
-		cost:15 moniks
-		on tick:yield 0.1 monik
-		unlocked
