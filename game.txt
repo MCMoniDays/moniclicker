@@ -1,1 +1,12 @@
-11
+Let's make a game!
+	name:MoniClicker
+	by:quell
+	desc:Игра-кликер для дискорд сервера MoniDays
+	created:21/11/2022
+	updated:21/11/2022
+	version:1
+
+CSS
+    .thing-icon,.icon{
+      background-size:cover;
+    }
