@@ -10,3 +10,12 @@ CSS
     .thing-icon,.icon{
       background-size:cover;
     }
+
+Settings
+	background:https://github.com/quell1337/moniclicker/raw/main/images/background.jpg
+	building cost increase:115%
+	building cost refund:50%
+	stylesheet:stuff/bigBlue.css
+
+Layout
+	use default
