@@ -4,7 +4,7 @@ Let's make a game!
 	desc:Игра-кликер для дискорд сервера MoniDays
 	created:21/11/2022
 	updated:21/11/2022
-	version:4
+	version:5
 
 CSS
     .thing-icon,.icon{
@@ -60,7 +60,7 @@ Upgrades
 Buildings
 	*factory|factories
 		name:Завод|Заводы
-		desc:Завод где саша какин работает, производит 3 моника в секунду.
+		desc:Завод где саша какин работает.<//><b>Производит 3 моника в секунду.
 		icon:
 		cost:15 moniks
 		on tick:yield 0.3 monik
@@ -68,7 +68,7 @@ Buildings
 
 	*cage|cages
 		name:Клетка|Клетки
-		desc:Клетка в которой сидит никитка нестеренко, производит 7 моников в 
+		desc:Клетка в которой сидит никитка нестеренко.<//><b>Производит 7 моников в 
 		icon:
 		cost:30 moniks
 		on tick:yield 0.7 monik
