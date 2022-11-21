@@ -57,7 +57,7 @@ Upgrades
 		cost:1 goldenMonik
 		req:1 goldenMonik:earned
 
-Buldings
+Buildings
 	*cage|cages
 		name:Клетка|Клетки
 		desc:Клетка с сашей хакиным, производит 1 моник в 10 секунд
