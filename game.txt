@@ -19,3 +19,40 @@ Settings
 
 Layout
 	use default
+
+Buttons
+	*moniButton
+		name:Добыть моник
+		desc:Нажми чтобы получить моник
+		on click:anim icon wobble
+		on click:yield 1 monik
+		on click:if (have goldenTouch and chance(1%)) yield 1 goldenMonik
+		icon:https://github.com/quell1337/moniclicker/raw/main/images/icon.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+		
+Resources
+	*monik|moniks
+		name:Моник|Моники
+		desc:Это моник, за него можно купить всякие вещи.
+		icon:https://github.com/quell1337/moniclicker/raw/main/images/icon.png
+		class:noBackground
+		show earned
+		
+	*goldenMonik|goldenMoniks
+		name:Золотой моник|Золотые моники
+		desc:Это золотой моник, он невероятно редок, за него можно купить интересные вещи.
+		icon:https://github.com/quell1337/moniclicker/raw/main/images/iconGolden.png
+		class:noBackground
+		hidden when 0
+
+Upgrades
+	*goldenTouch
+		name:Золотое касание
+		desc:Дает вам шанс добыть золотой моник
+		icon:https://github.com/quell1337/moniclicker/raw/main/images/iconGolden.png
+		cost:1 goldenMonik
+		req:1 goldenMonik:earned
